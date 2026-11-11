@@ -47,24 +47,25 @@ A continuación se presentan las pruebas realizadas a los endpoints en el entorn
 
 ### 1. Creación de Entidad Principal (POST - Consola)
 Creación del registro base para establecer la relación.
-![Prueba POST Consola](G:\Respaldo chino\yahel\Pictures\Screenshots\Crear una Consola (POST - Crear).png)
+<img width="1107" height="862" alt="Crear una Consola (POST - Crear)" src="https://github.com/user-attachments/assets/a5ae5bde-e02f-41ca-b5fd-bdcc18e84a58" />
 
 ### 2. Creación de Entidad Relacionada (POST - Videojuego)
 Registro de un videojuego enlazado exitosamente al ID de la consola previamente creada.
-![Prueba POST Videojuego](ruta/a/tu/imagen/2-post-videojuego.png)
+<img width="1098" height="897" alt="Crear un Videojuego relacionado a la Consola (POST - Crear)" src="https://github.com/user-attachments/assets/43d578e2-c9c7-4da7-88c2-56ea444d0b16" />
+
 
 ### 3. Lectura de Datos y Relación (GET - Videojuegos)
 Consulta general que demuestra la estructura anidada del JSON, comprobando que la relación `@ManyToOne` funciona correctamente.
-![Prueba GET Videojuegos](ruta/a/tu/imagen/3-get-videojuegos.png)
+<img width="1100" height="957" alt="Ver el CRUD y la relación funcionando (GET - Leer)" src="https://github.com/user-attachments/assets/9d978d49-382d-497c-a788-a5ebc491de2d" />
+
 
 ### 4. Actualización de Registro (PUT - Videojuego)
 Modificación de los datos de un registro existente apuntando a su ID.
-![Prueba PUT Videojuego](ruta/a/tu/imagen/4-put-videojuego.png)
+<img width="1096" height="930" alt="Actualizar el Videojuego (PUT - Actualizar)" src="https://github.com/user-attachments/assets/74b55f4b-ff17-42db-953e-a7b40dc59eac" />
 
-### 5. Eliminación de Registro (DELETE - Videojuego)
-Eliminación exitosa del registro, retornando un código de estado 200 OK.
-![Prueba DELETE Videojuego](ruta/a/tu/imagen/5-delete-videojuego.png)
+
 
 ### 6. Verificación de Despliegue Público
 Captura del navegador demostrando que la API se encuentra pública, respondiendo correctamente desde la dirección IP del servidor VPS.
-![Prueba Navegador VPS](ruta/a/tu/imagen/6-navegador-vps.png)
+<img width="1917" height="947" alt="image" src="https://github.com/user-attachments/assets/8f13ab84-79c1-471a-8793-547118ca2e60" />
+
