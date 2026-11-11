@@ -47,7 +47,7 @@ A continuación se presentan las pruebas realizadas a los endpoints en el entorn
 
 ### 1. Creación de Entidad Principal (POST - Consola)
 Creación del registro base para establecer la relación.
-![Prueba POST Consola](ruta/a/tu/imagen/1-post-consola.png)
+![Prueba POST Consola](G:\Respaldo chino\yahel\Pictures\Screenshots\Crear una Consola (POST - Crear).png)
 
 ### 2. Creación de Entidad Relacionada (POST - Videojuego)
 Registro de un videojuego enlazado exitosamente al ID de la consola previamente creada.
